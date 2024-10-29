@@ -1,0 +1,14 @@
+# Replace the path below with the path to the "datasets" folder, which contains 
+# 'train', 'val', and 'test' folders.
+# The 'datasets' folder structure is created by the 'convert_annotations.py' script.
+path: <path_to_dataset>
+
+train: train/images
+val: val/images
+test: test/images
+
+# number of classes
+nc: 1
+
+# class names
+names: ['license_plate']
